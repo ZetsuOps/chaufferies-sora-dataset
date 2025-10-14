@@ -1,0 +1,17 @@
+{
+  "local_id": "local_17",
+  "environment": {
+    "floor": "dallage béton brut usé, présence de zones d'humidité et légères traces de corrosion",
+    "walls": "murs en parpaings peints blancs, écaillés et légèrement tachés par endroits",
+    "lighting": "éclairage fluorescent uniforme au plafond avec dalle métallique ajourée",
+    "ceiling": "grille métallique suspendue avec canalisations apparentes et conduits calorifugés"
+  },
+  "reference_image": "Chaufferie.png",
+  "boiler_model": "DE_DIETRICH_HORS_CONDENSATION",
+  "elements": [
+    { "tag": "boiler", "file": "Chaufferie.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "network_nature", "file": "Nature du reseau.png" },
+    { "tag": "boiler_room_wide", "file": "Chaufferie.png" }
+  ]
+}

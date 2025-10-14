@@ -1,0 +1,17 @@
+{
+  "local_id": "local_15",
+  "environment": {
+    "floor": "béton brut propre, légèrement patiné par les passages",
+    "walls": "murs en béton brut gris clair avec quelques conduites murales apparentes",
+    "lighting": "fluorescent blanc froid, bonne homogénéité lumineuse",
+    "ceiling": "béton apparent avec réseaux calorifugés et canalisations gaz jaunes"
+  },
+  "reference_image": "Chaudiere.png",
+  "boiler_model": "GT_430",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Chaudiere.png" },
+    { "tag": "network_nature", "file": "Chaudiere.png" },
+    { "tag": "boiler_room_wide", "file": "Chaudiere.png" }
+  ]
+}

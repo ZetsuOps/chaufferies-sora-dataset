@@ -1,0 +1,18 @@
+{
+  "local_id": "local_04",
+  "environment": {
+    "floor": "béton brut avec traces d’humidité et poussière",
+    "walls": "béton brut clair",
+    "lighting": "fluorescent blanc froid, homogène",
+    "ceiling": "réseau dense de canalisations calorifugées en aluminium"
+  },
+  "reference_image": "Chaufferie.png",
+  "boiler_model": "GT_430",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "pressure_maintainer", "file": "Maintien de pression.png" },
+    { "tag": "boiler_room_wide", "file": "Chaufferie.png" }
+  ]
+}

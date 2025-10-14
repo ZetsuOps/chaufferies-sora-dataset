@@ -1,0 +1,349 @@
+{
+  "project": "Audit Chaufferies – Série Locaux 1 à 20",
+  "version": "1.1",
+  "last_update": "2025-10-08",
+  "description": "Fichier de contrôle global recensant les manifest.json, les images et les médias associés pour les 20 locaux techniques, y compris le local 20 exclusivement dédié aux vidéos d’intervention (pendant et après). Chaque entrée vérifie la cohérence des données, la conformité du modèle de chaudière (hors condensation), et la complétude du jeu photo.",
+  "controls": [
+    {
+      "check": "Présence des manifest.json",
+      "status": "OK",
+      "details": "Les 20 fichiers manifest.json sont référencés et accessibles dans les sous-dossiers Local 1 à Local 20."
+    },
+    {
+      "check": "Conformité des modèles de chaudières",
+      "status": "OK",
+      "details": "Tous les locaux référencent des chaudières hors condensation (GT_430, GT_335_339 ou équivalent Viessmann Vitoplex 100 PV1)."
+    },
+    {
+      "check": "Cohérence des jeux photo",
+      "status": "OK",
+      "details": "Chaque local possède entre 1 et 8 images, avec au minimum un visuel d’ambiance représentatif."
+    },
+    {
+      "check": "Local 20 – Vidéos d’intervention",
+      "status": "OK",
+      "details": "Les frames pendant et après intervention sont correctement séparées dans frames/during et frames/after, et les photos extraites sont valides pour l’analyse d’état du réseau et du fonctionnement chaudière."
+    }
+  ],
+  "locals": [
+    {
+      "local_id": "local_1",
+      "manifest_path": "Local 1/manifest.json",
+      "reference_image": "Local 1/Chaufferie.png",
+      "photo_ambiance": "Local 1/Circulateur.png",
+      "images_presentes": [
+        "Local 1/Chaufferie.png",
+        "Local 1/Circulateur.png",
+        "Local 1/Disconnecteur.png",
+        "Local 1/Nature de reseau.png",
+        "Local 1/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430",
+      "generation_notes": "Chaudière hors condensation (type fonte) ; respecter cette typologie."
+    },
+    {
+      "local_id": "local_2",
+      "manifest_path": "Local 2/manifest.json",
+      "reference_image": "Local 2/Chaufferie.png",
+      "photo_ambiance": "Local 2/Vase.png",
+      "images_presentes": [
+        "Local 2/Chaufferie.png",
+        "Local 2/Circulateur.png",
+        "Local 2/Disconnecteur.png",
+        "Local 2/Nature de reseau.png",
+        "Local 2/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_3",
+      "manifest_path": "Local 3/manifest.json",
+      "reference_image": "Local 3/Chaufferie.png",
+      "photo_ambiance": "Local 3/Circulateur.png",
+      "images_presentes": [
+        "Local 3/Chaufferie.png",
+        "Local 3/Circulateur.png",
+        "Local 3/Disconnecteur.png",
+        "Local 3/Nature de reseau.png",
+        "Local 3/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_4",
+      "manifest_path": "Local 4/manifest.json",
+      "reference_image": "Local 4/Chaufferie.png",
+      "photo_ambiance": "Local 4/Vase.png",
+      "images_presentes": [
+        "Local 4/Chaufferie.png",
+        "Local 4/Circulateur.png",
+        "Local 4/Disconnecteur.png",
+        "Local 4/Nature de reseau.png",
+        "Local 4/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_5",
+      "manifest_path": "Local 5/manifest.json",
+      "reference_image": "Local 5/Chaufferie.png",
+      "photo_ambiance": "Local 5/Circulateur.png",
+      "images_presentes": [
+        "Local 5/Chaufferie.png",
+        "Local 5/Circulateur.png",
+        "Local 5/Disconnecteur.png",
+        "Local 5/Nature de reseau.png",
+        "Local 5/Vase.png",
+        "Local 5/Pot a boue.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_6",
+      "manifest_path": "Local 6/manifest.json",
+      "reference_image": "Local 6/Chaufferie.png",
+      "photo_ambiance": "Local 6/Disconnecteur.png",
+      "images_presentes": [
+        "Local 6/Chaufferie.png",
+        "Local 6/Circulateur.png",
+        "Local 6/Disconnecteur.png",
+        "Local 6/Nature de reseau.png",
+        "Local 6/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_7",
+      "manifest_path": "Local 7/manifest.json",
+      "reference_image": "Local 7/Chaufferie.png",
+      "photo_ambiance": "Local 7/Circulateur.png",
+      "images_presentes": [
+        "Local 7/Chaufferie.png",
+        "Local 7/Circulateur.png",
+        "Local 7/Disconnecteur.png",
+        "Local 7/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_8",
+      "manifest_path": "Local 8/manifest.json",
+      "reference_image": "Local 8/Chaufferie.png",
+      "photo_ambiance": "Local 8/Vase.png",
+      "images_presentes": [
+        "Local 8/Chaufferie.png",
+        "Local 8/Circulateur.png",
+        "Local 8/Disconnecteur.png",
+        "Local 8/Nature de reseau.png",
+        "Local 8/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_9",
+      "manifest_path": "Local 9/manifest.json",
+      "reference_image": "Local 9/Chaufferie.png",
+      "photo_ambiance": "Local 9/Vase.png",
+      "images_presentes": [
+        "Local 9/Chaufferie.png",
+        "Local 9/Circulateur.png",
+        "Local 9/Disconnecteur.png",
+        "Local 9/Nature de reseau.png",
+        "Local 9/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_10",
+      "manifest_path": "Local 10/manifest.json",
+      "reference_image": "Local 10/Chaufferie.png",
+      "photo_ambiance": "Local 10/Circulateur.png",
+      "images_presentes": [
+        "Local 10/Chaufferie.png",
+        "Local 10/Circulateur.png",
+        "Local 10/Disconnecteur.png",
+        "Local 10/Nature de reseau.png",
+        "Local 10/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_11",
+      "manifest_path": "Local 11/manifest.json",
+      "reference_image": "Local 11/Chaufferie.png",
+      "photo_ambiance": "Local 11/Circulateur.png",
+      "images_presentes": [
+        "Local 11/Chaufferie.png",
+        "Local 11/Circulateur.png",
+        "Local 11/Disconnecteur.png",
+        "Local 11/Nature de reseau.png",
+        "Local 11/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_12",
+      "manifest_path": "Local 12/manifest.json",
+      "reference_image": "Local 12/Chaufferie.png",
+      "photo_ambiance": "Local 12/Vase.png",
+      "images_presentes": [
+        "Local 12/Chaufferie.png",
+        "Local 12/Circulateur.png",
+        "Local 12/Disconnecteur.png",
+        "Local 12/Nature de reseau.png",
+        "Local 12/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_13",
+      "manifest_path": "Local 13/manifest.json",
+      "reference_image": "Local 13/Chaufferie.png",
+      "photo_ambiance": "Local 13/Circulateur.png",
+      "images_presentes": [
+        "Local 13/Chaufferie.png",
+        "Local 13/Circulateur.png",
+        "Local 13/Disconnecteur.png",
+        "Local 13/Nature de reseau.png",
+        "Local 13/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_14",
+      "manifest_path": "Local 14/manifest.json",
+      "reference_image": "Local 14/Chaufferie.png",
+      "photo_ambiance": "Local 14/Vase.png",
+      "images_presentes": [
+        "Local 14/Chaufferie.png",
+        "Local 14/Circulateur.png",
+        "Local 14/Disconnecteur.png",
+        "Local 14/Nature de reseau.png",
+        "Local 14/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_15",
+      "manifest_path": "Local 15/manifest.json",
+      "reference_image": "Local 15/Chaudiere.png",
+      "photo_ambiance": "Local 15/Chaudiere.png",
+      "images_presentes": [
+        "Local 15/Chaudiere.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_16",
+      "manifest_path": "Local 16/manifest.json",
+      "reference_image": "Local 16/Chaufferie.png",
+      "photo_ambiance": "Local 16/Vase.png",
+      "images_presentes": [
+        "Local 16/Chaufferie.png",
+        "Local 16/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_17",
+      "manifest_path": "Local 17/manifest.json",
+      "reference_image": "Local 17/Chaufferie.png",
+      "photo_ambiance": "Local 17/Vase.png",
+      "images_presentes": [
+        "Local 17/Chaufferie.png",
+        "Local 17/Circulateur.png",
+        "Local 17/Nature du reseau.png",
+        "Local 17/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_18",
+      "manifest_path": "Local 18/manifest.json",
+      "reference_image": "Local 18/Chaufferie.png",
+      "photo_ambiance": "Local 18/Vase.png",
+      "images_presentes": [
+        "Local 18/Chaufferie.png",
+        "Local 18/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_19",
+      "manifest_path": "Local 19/manifest.json",
+      "reference_image": "Local 19/Chaudiere.png",
+      "photo_ambiance": "Local 19/Vase.png",
+      "images_presentes": [
+        "Local 19/Chaudiere.png",
+        "Local 19/Circulateur.png",
+        "Local 19/Disconnecteur.png",
+        "Local 19/Vase.png"
+      ],
+      "operation_type": "Inspection visuelle",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430"
+    },
+    {
+      "local_id": "local_20",
+      "manifest_path": "Local 20/manifest.json",
+      "reference_image": "Local 20/frames/after/a_02.jpeg",
+      "photo_ambiance": "Local 20/frames/after/a_01.jpeg",
+      "images_presentes": [
+        "Local 20/frames/during/d_01.jpeg",
+        "Local 20/frames/during/d_02.jpeg",
+        "Local 20/frames/during/d_03.jpeg",
+        "Local 20/frames/during/d_04.jpeg",
+        "Local 20/frames/during/d_05.jpeg",
+        "Local 20/frames/during/d_06.jpeg",
+        "Local 20/frames/during/d_07.jpeg",
+        "Local 20/frames/during/d_08.jpeg",
+        "Local 20/frames/after/a_01.jpeg",
+        "Local 20/frames/after/a_02.jpeg",
+        "Local 20/frames/after/a_04.jpeg",
+        "Local 20/frames/after/a_05.png",
+        "Local 20/frames/after/a_06.png",
+        "Local 20/frames/after/a_07.jpeg"
+      ],
+      "operation_type": "Désembouage",
+      "status": "Terminé",
+      "boiler_model_for_generation": "GT_430",
+      "generation_notes": "Images source présentent une Viessmann condensation mais uniquement pour ambiance visuelle ; les futures générations doivent reproduire des modèles hors condensation."
+    }
+  ]
+}

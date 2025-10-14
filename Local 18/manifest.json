@@ -1,0 +1,17 @@
+{
+  "local_id": "local_18",
+  "environment": {
+    "floor": "sol carrelé gris clair, propre avec quelques traces d’humidité localisées",
+    "walls": "murs en béton peint blanc avec décolorations et légères traces d’usure",
+    "lighting": "éclairage fluorescent au plafond, lumière naturelle partielle en journée",
+    "ceiling": "canalisations apparentes et réseaux calorifugés suspendus"
+  },
+  "reference_image": "Chaufferie.png",
+  "boiler_model": "VITOPLEX_100",
+  "elements": [
+    { "tag": "boiler", "file": "Chaufferie.png" },
+    { "tag": "expansion_vessel", "file": "Vase.png" },
+    { "tag": "network_nature", "file": "Vase.png" },
+    { "tag": "boiler_room_wide", "file": "Chaufferie.png" }
+  ]
+}

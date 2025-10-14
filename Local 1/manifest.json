@@ -1,0 +1,17 @@
+{
+  "local_id": "local_01",
+  "environment": {
+    "floor": "béton brut, légèrement poussiéreux",
+    "walls": "béton brut gris",
+    "lighting": "fluorescent, teinte froide avec lumière naturelle partielle"
+  },
+  "reference_image": "Chaufferie.png",
+  "boiler_model": "GT_430",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "expansion_vessel", "file": "Vase.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "injection_point", "file": "Injection.png" },
+    { "tag": "boiler_room_wide", "file": "Chaufferie.png" }
+  ]
+}

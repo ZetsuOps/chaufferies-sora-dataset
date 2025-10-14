@@ -1,0 +1,18 @@
+{
+  "local_id": "local_10",
+  "environment": {
+    "floor": "carrelage gris foncé légèrement sali et usé",
+    "walls": "béton peint blanc cassé avec canalisations apparentes",
+    "lighting": "éclairage fluorescent blanc froid homogène",
+    "ceiling": "béton brut avec conduites calorifugées et gaines apparentes"
+  },
+  "reference_image": "Circulateur.png",
+  "boiler_model": "VITOPLEX_100_PV1",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "network_overview", "file": "Nature reseau.png" },
+    { "tag": "expansion_vessel", "file": "Vase.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateur.png" }
+  ]
+}

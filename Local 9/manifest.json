@@ -1,0 +1,17 @@
+{
+  "local_id": "local_09",
+  "environment": {
+    "floor": "béton brut taché et légèrement encrassé",
+    "walls": "peinture verte pâle écaillée",
+    "lighting": "éclairage fluorescent blanc froid, irrégulier",
+    "ceiling": "plafond bas en béton brut avec conduites calorifugées"
+  },
+  "reference_image": "Chaufferie.png",
+  "boiler_model": "VITOPLEX_100_PV1",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "dirt_separator", "file": "Pot a boue.png" },
+    { "tag": "boiler_room_wide", "file": "Chaufferie.png" }
+  ]
+}

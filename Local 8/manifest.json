@@ -1,0 +1,18 @@
+{
+  "local_id": "local_08",
+  "environment": {
+    "floor": "résine époxy grise, surface lisse et propre",
+    "walls": "béton brut clair avec boîtiers électriques apparents",
+    "lighting": "éclairage fluorescent blanc froid, homogène",
+    "ceiling": "béton apparent avec canalisations calorifugées et conduites gaz jaunes"
+  },
+  "reference_image": "Circulateur.png",
+  "boiler_model": "GT_430",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "injection_point", "file": "Injection.png" },
+    { "tag": "pressure_maintainer", "file": "Maintien de pression.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateur.png" }
+  ]
+}

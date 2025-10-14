@@ -1,0 +1,17 @@
+{
+  "local_id": "local_12",
+  "environment": {
+    "floor": "béton lisse peint gris clair, très propre",
+    "walls": "murs en briques peintes blanches, aspect récent",
+    "lighting": "éclairage LED blanc froid, très uniforme",
+    "ceiling": "plafond acier galvanisé avec conduites calorifugées"
+  },
+  "reference_image": "Circulateur.png",
+  "boiler_model": "chaudiere_gaz_classique",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateur.png" }
+  ]
+}

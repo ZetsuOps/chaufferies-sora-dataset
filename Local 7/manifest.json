@@ -1,0 +1,18 @@
+{
+  "local_id": "local_07",
+  "environment": {
+    "floor": "béton peint gris anthracite, surface lisse et propre",
+    "walls": "béton brut clair avec graffitis bleus et rouges",
+    "lighting": "éclairage fluorescent blanc froid homogène",
+    "ceiling": "poutres béton et canalisations apparentes galvanisées"
+  },
+  "reference_image": "Circulateur.png",
+  "boiler_model": "VITOPLEX_100_PV1",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "expansion_vessel", "file": "Vase.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateur.png" }
+  ]
+}

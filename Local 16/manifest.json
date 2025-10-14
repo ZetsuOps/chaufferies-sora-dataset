@@ -1,0 +1,18 @@
+{
+  "local_id": "local_16",
+  "environment": {
+    "floor": "sol lisse en béton peint gris clair",
+    "walls": "murs en parpaings bruts avec canalisations apparentes et éléments muraux métalliques",
+    "lighting": "éclairage fluorescent blanc uniforme",
+    "ceiling": "béton brut avec passage de réseaux gaz et hydrauliques calorifugés"
+  },
+  "reference_image": "Chaudiere.png",
+  "boiler_model": "VITOPLEX_300",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Chaudiere.png" },
+    { "tag": "expansion_vessel", "file": "Chaudiere.png" },
+    { "tag": "network_nature", "file": "Chaudiere.png" },
+    { "tag": "boiler_room_wide", "file": "Chaudiere.png" }
+  ]
+}

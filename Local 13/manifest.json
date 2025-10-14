@@ -1,0 +1,17 @@
+{
+  "local_id": "local_13",
+  "environment": {
+    "floor": "béton gris peint, propre et sans trace d'humidité",
+    "walls": "murs enduits clairs, légèrement texturés et en très bon état",
+    "lighting": "éclairage LED blanc neutre, diffus et homogène",
+    "ceiling": "béton apparent avec conduites calorifugées et gaines apparentes"
+  },
+  "reference_image": "Circulateur.png",
+  "boiler_model": "GT_330A",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "expansion_vessels", "file": "Vase.png" }
+  ]
+}

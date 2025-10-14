@@ -1,0 +1,18 @@
+{
+  "local_id": "local_11",
+  "environment": {
+    "floor": "carrelage brun en terre cuite, propre et régulier",
+    "walls": "murs en briques peintes blanc-gris, partiellement écaillés",
+    "lighting": "éclairage fluorescent blanc chaud, homogène",
+    "ceiling": "béton apparent avec conduites de chauffage visibles"
+  },
+  "reference_image": "Circulateur.png",
+  "boiler_model": "GT_330A",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "expansion_vessel", "file": "Vase.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateur.png" }
+  ]
+}

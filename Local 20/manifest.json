@@ -1,0 +1,41 @@
+{
+  "local_id": 20,
+  "adresse": "Local technique - intervention spécifique",
+  "ville": "Non renseignée",
+  "departement": "Île-de-France",
+  "operation_type": "Désembouage",
+  "status": "Terminé",
+  "description": "Intervention de désembouage complète sur chaudière murale Viessmann et réseau associé, avec observation du fonctionnement post-intervention.",
+  "images_presentes": {
+    "frames_during": [
+      "frames/during/d_01.jpeg",
+      "frames/during/d_02.jpeg",
+      "frames/during/d_03.jpeg",
+      "frames/during/d_04.jpeg",
+      "frames/during/d_05.jpeg",
+      "frames/during/d_06.jpeg",
+      "frames/during/d_07.jpeg",
+      "frames/during/d_08.jpeg"
+    ],
+    "frames_after": [
+      "frames/after/a_01.jpeg",
+      "frames/after/a_02.jpeg",
+      "frames/after/a_04.jpeg",
+      "frames/after/a_05.png",
+      "frames/after/a_06.png",
+      "frames/after/a_07.jpeg"
+    ]
+  },
+  "equipements_identifies": {
+    "chaudiere": "Viessmann Vitodens (murale, condensation)",
+    "pompe_desembouage": "Rems Multi Push SLW (jaune, utilisée pendant l’intervention)",
+    "circulateurs": "Wilo série Stratos (circulateurs à affichage digital)",
+    "disconnecteur": "présent sur réseau principal (non utilisé pendant intervention)",
+    "vannes": "manuelles, fermées pendant opération de désembouage"
+  },
+  "observations": {
+    "etat_initial": "Réseau encrassé, présence de dépôts dans le retour, intervention de désembouage nécessaire.",
+    "etat_pendant": "Pompe de désembouage en fonctionnement, rejet du liquide dans siphon de sol, vannes isolées.",
+    "etat_final": "Installation nettoyée, pression rétablie, chaudière et circulateurs en service normal."
+  }
+}

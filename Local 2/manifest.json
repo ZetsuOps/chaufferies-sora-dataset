@@ -1,0 +1,18 @@
+{
+  "local_id": "local_02",
+  "environment": {
+    "floor": "béton brut légèrement taché",
+    "walls": "pierre apparente, teinte beige-gris",
+    "lighting": "éclairage fluorescent froid typique de sous-sol"
+  },
+  "reference_image": "Chaufferie.png",
+  "boiler_model": "VITOPLEX_100_PV1",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "distribution_pump", "file": "Pompe de distribution.png" },
+    { "tag": "dirt_separator", "file": "Pot a boue.png" },
+    { "tag": "network_nature", "file": "Nature du reseau.png" },
+    { "tag": "boiler_room_wide", "file": "Chaufferie.png" }
+  ]
+}

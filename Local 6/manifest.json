@@ -1,0 +1,19 @@
+{
+  "local_id": "local_06",
+  "environment": {
+    "floor": "béton brut propre avec rigole d'évacuation métallique",
+    "walls": "béton brut gris clair, surface plane non peinte",
+    "lighting": "éclairage fluorescent blanc froid",
+    "ceiling": "béton apparent avec passages de tuyauterie"
+  },
+  "reference_image": "Circulateurs.png",
+  "boiler_model": "GT_335_339",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateurs.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "injection_point", "file": "Injection.png" },
+    { "tag": "network_nature", "file": "Nature du reseau.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateurs.png" }
+  ]
+}

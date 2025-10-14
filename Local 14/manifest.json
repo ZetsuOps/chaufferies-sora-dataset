@@ -1,0 +1,18 @@
+{
+  "local_id": "local_14",
+  "environment": {
+    "floor": "béton brut propre avec traces d'entretien et outils au sol",
+    "walls": "béton brut clair partiellement écaillé avec taches de rouille",
+    "lighting": "fluorescent blanc froid, typique d’un sous-sol technique",
+    "ceiling": "béton apparent avec réseaux de tuyauterie calorifugée et conduites gaz jaunes"
+  },
+  "reference_image": "Circulateur.png",
+  "boiler_model": "VITOPLEX_100_PV1",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "disconnecteur_BA", "file": "Disconnecteur.png" },
+    { "tag": "network_nature", "file": "Nature de reseau.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateur.png" }
+  ]
+}

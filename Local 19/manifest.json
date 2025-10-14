@@ -1,0 +1,18 @@
+{
+  "local_id": "local_19",
+  "environment": {
+    "floor": "béton brut peint gris, avec quelques traces d’humidité au sol",
+    "walls": "murs peints bleu clair, propres, avec passages de tuyauteries apparents",
+    "lighting": "éclairage fluorescent au plafond offrant une luminosité suffisante",
+    "ceiling": "réseaux hydrauliques et gaines électriques apparents, fixés sur rails métalliques"
+  },
+  "reference_image": "Chaudiere.png",
+  "boiler_model": "VIESSMANN_VITOPLEX_100_HORS_CONDENSATION",
+  "elements": [
+    { "tag": "boiler", "file": "Chaudiere.png" },
+    { "tag": "circulators", "file": "Circulateur.png" },
+    { "tag": "disconnectors", "file": "Disconnecteur.png" },
+    { "tag": "expansion_vessels", "file": "Vase.png" },
+    { "tag": "boiler_room_wide", "file": "Circulateur.png" }
+  ]
+}
